@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './components/Layout.css'
 
 export const Projects = () => (     
     <div id="projects" className="layout-element">
-        <h1>Welcome to the Projects Page</h1>
+        <h1 className="section-heading">Projects</h1>
         <p>tLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor dignissim lorem. Praesent non eros eleifend, cursus dui non, facilisis massa. Suspendisse potenti. Praesent ultricies est turpis, sed pellentesque lectus auctor et. Aenean facilisis, arcu vel tempus rutrum, neque neque malesuada tortor, lobortis aliquet nunc libero sed ipsum. Mauris ut elit id enim malesuada consequat. Fusce sagittis lectus vestibulum mattis mattis. Proin ornare augue tortor, ut venenatis augue pretium sed.
 
 Proin vestibulum, ante sit amet mattis dapibus, metus turpis iaculis ex, eget luctus quam est vel risus. Nullam rutrum non justo non sagittis. Vestibulum auctor eget quam nec dapibus. Proin posuere faucibus ligula, vitae sollicitudin orci scelerisque at. Proin mollis interdum sodales. Proin fermentum hendrerit nisi, sit amet maximus ante sagittis eu. Proin tempus erat orci, sed blandit arcu porta in.

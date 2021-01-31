@@ -3,7 +3,7 @@ import {Nav, Navbar, NavbarBrand} from 'react-bootstrap';
 import './NavigationBar.css';
 import { Link} from 'react-scroll';
 
-
+//Color Palette: https://coolors.co/3d5a80-98c1d9-e0fbfc-ee6c4d-293241
 export const NavigationBar = () => (
     <Navbar  variant='dark' expand="lg" sticky="top" >
         <Navbar.Brand href="/">Chintan Mistry</Navbar.Brand>

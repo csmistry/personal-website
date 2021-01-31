@@ -1,9 +1,10 @@
 import React from 'react'
+import './components/Layout.css'
 
 
 export const About = () => (     
         <div id="about" className="layout-element">
-            <h1>Welcome to the About Page</h1>
+            <h1 className="section-heading">About Me </h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor dignissim lorem. Praesent non eros eleifend, cursus dui non, facilisis massa. Suspendisse potenti. Praesent ultricies est turpis, sed pellentesque lectus auctor et. Aenean facilisis, arcu vel tempus rutrum, neque neque malesuada tortor, lobortis aliquet nunc libero sed ipsum. Mauris ut elit id enim malesuada consequat. Fusce sagittis lectus vestibulum mattis mattis. Proin ornare augue tortor, ut venenatis augue pretium sed.
 
