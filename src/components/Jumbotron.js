@@ -6,8 +6,11 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
         <div className="overlay"></div>
         <Container>
-            <h1>Welcome!</h1>
-            <p>Keep scrolling to learn more :)</p>
+            <h2>Computer Engineering Student @ University of Waterloo</h2>
+            <br/>
+            <h2>Software Developer @ Arctic Wolf Networks </h2>
+            <br/>
+            <h2>Lifelong Learner</h2>
         </Container>
     </Jumbo>
 
