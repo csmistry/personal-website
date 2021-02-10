@@ -6,17 +6,17 @@ export const About = () => (
         <div id="about" className="layout-element">
             <h1 className="section-heading">About Me </h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor dignissim lorem. Praesent non eros eleifend, cursus dui non, facilisis massa. Suspendisse potenti. Praesent ultricies est turpis, sed pellentesque lectus auctor et. Aenean facilisis, arcu vel tempus rutrum, neque neque malesuada tortor, lobortis aliquet nunc libero sed ipsum. Mauris ut elit id enim malesuada consequat. Fusce sagittis lectus vestibulum mattis mattis. Proin ornare augue tortor, ut venenatis augue pretium sed.
-
-Proin vestibulum, ante sit amet mattis dapibus, metus turpis iaculis ex, eget luctus quam est vel risus. Nullam rutrum non justo non sagittis. Vestibulum auctor eget quam nec dapibus. Proin posuere faucibus ligula, vitae sollicitudin orci scelerisque at. Proin mollis interdum sodales. Proin fermentum hendrerit nisi, sit amet maximus ante sagittis eu. Proin tempus erat orci, sed blandit arcu porta in.
-
-Suspendisse ornare urna ac nulla ullamcorper, non pharetra tellus viverra. Proin ac placerat ante. Morbi in ornare elit. In mattis ultrices mauris. Suspendisse tincidunt lectus sed varius faucibus. Vivamus gravida magna non facilisis malesuada. Sed vitae lacus condimentum, gravida nunc ac, dignissim erat. Curabitur vel ligula maximus, scelerisque urna a, volutpat lectus. Proin commodo posuere nibh. Nulla cursus imperdiet viverra. Praesent condimentum ligula felis, non ultricies ligula ultricies eget. Quisque porttitor pretium felis, ut auctor nunc euismod sit amet. Sed quis nunc dui.
-
-Aenean hendrerit est ornare enim maximus malesuada. Nulla egestas risus vitae tempor laoreet. Nunc laoreet velit et ornare sodales. Sed finibus nunc non mauris eleifend luctus. Vivamus vitae est rutrum diam egestas iaculis. Aliquam erat volutpat. Etiam vulputate lacus leo, pulvinar tempor nisi hendrerit eget. Aliquam ornare viverra arcu, at rhoncus sapien porta et. Vivamus id suscipit nisi. Vivamus eleifend imperdiet nisl id aliquam. Donec lobortis pulvinar ligula ut aliquet. Pellentesque mollis egestas posuere. Nunc sed leo ut erat efficitur efficitur.
-
-Vestibulum eu neque tempus est tristique vehicula. Aenean consectetur arcu mi, id laoreet eros mollis pellentesque. Fusce congue, leo vel sodales luctus, nibh nisi ullamcorper arcu, vitae pretium neque lectus vel quam. Nam convallis nibh malesuada nulla iaculis euismod sit amet vel orci. Phasellus eu ullamcorper orci, non tristique dui. Aliquam laoreet at nibh id hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus et quam nec turpis vulputate accumsan eget vel nisi. Aliquam interdum convallis pharetra. Sed vitae ante nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin eu molestie justo. Morbi nec commodo metus. Nam in urna ut neque dictum volutpat. In in metus elit. Maecenas urna mauris, sodales et bibendum at, maximus vitae augue.
-
-Pellentesque tristique id felis eget faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris nec malesuada diam. Nam dictum sapien justo, vitae congue nisi tristique a. Curabitur id ipsum nec magna sodales pharetra. Quisque nisi eros, maximus vel felis sed, bibendum pellentesque velit. Donec ut viverra tortor, vitae aliquam est. Nam quis lacus a ante sollicitudin luctus. Sed vestibulum felis nulla, eu tempor metus convallis id. Aenean vitae convallis dui. Vestibulum.
-            </p>
+            I'm currently a 3rd year Computer Engineeering student studying at the University of Waterloo located in Waterloo, Ontario. I chose Computer Engineering because I wanted to learn about the technology that drives our everyday lives.
+            Whether it's the phone inside your pocket or the large networks that keep you connected with the world, computers and computer systems are everywhere. Computer Engineering for me is the best of both worlds, I have the opportunity to learn about both the 
+            hardware and software aspect of computers. In our daily lives we don't get to see the low level hardware and components that make up the devices we use, instead we interact with the software. Software applications are integrated into our lives; Ordering food,
+            making bank transactions, shopping, sharing pictures with friends ... all these things are just a few clicks away.
+            <br/>
+            <br/>
+            As you will see from my experiences section, I've developed a passion towards software and learning how we can leverage software to make our lives easier. I enjoy working with others to solve complex problems and design creative solutions. I've completed 3 co-op terms so far,
+            and in each term I've made meaningful contributions that I can look back on. My goal is to use each work term as an opportunity to not only learn and try new things in the software industry but to also make positive impacts and contributions in each company that I work for.
+            Having tried DevOps/Automation, Mobile Development and Backend Development, I find Backend Development to be the most interesting. Why? Because I feel that the complexity, range and variety of problems exponentially increase as you lift up the curtain of modern day software applications.
+            <br/>
+            <br/>
+          </p>
         </div>
 )
