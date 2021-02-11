@@ -1,5 +1,6 @@
 import React from 'react'
 import './components/Layout.css'
+import wloo from './assets/wlooEng.png'
 
 
 export const About = () => (     
@@ -7,8 +8,8 @@ export const About = () => (
             <h1 className="section-heading">About Me </h1>
             <div>
               <div className="horizontal-flexbox">
-                <div class="box red"></div>
-                <p>
+                <img className="horizontal-flexbox-child" src={wloo}/>
+                <p className="horizontal-flexbox-child">
                 I'm currently a 3rd year Computer Engineeering student studying at the University of Waterloo located in Waterloo, Ontario. I chose Computer Engineering because I wanted to learn about the technology that drives our everyday lives.
                 Whether it's the phone inside your pocket or the large networks that keep you connected with the world, computers and computer systems are everywhere. Computer Engineering for me is the best of both worlds, I have the opportunity to learn about both the 
                 hardware and software aspect of computers. In our daily lives we don't get to see the low level hardware and components that make up the devices we use, instead we interact with the software. Software applications are integrated into our lives; Ordering food,

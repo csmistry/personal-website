@@ -30,3 +30,10 @@
     flex-direction: row;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.horizontal-flexbox-child{
+    padding: 5px;
+}
