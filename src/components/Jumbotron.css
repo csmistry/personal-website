@@ -1,9 +1,17 @@
 .jumbo{
-   background-color: #1d3557;
+ 
    justify-content: center;
    padding-top: 10%;
    padding-bottom: 10%;
    text-align: center;
-   color: #f1faee;
-   font-family: RobotoMono;
+   color: white;
+   background-image: url("../assets/jumbo-home.png");
+   background-position: center;
+   background-size: cover;
+   opacity: 100%;
+   z-index: -1 ;
+}
+
+.jumbo-text{
+   background-color: rgba(	29, 53, 87, .3);
 }

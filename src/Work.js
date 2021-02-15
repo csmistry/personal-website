@@ -1,10 +1,10 @@
 import React from 'react'
 import './components/Layout.css'
 import './work.css'
-import awn from './assets/awn.png'
-import manulife from './assets/manulife.png'
-import novx from './assets/novx.png'
-import coreavi from './assets/coreavi.png'
+import awn from './assets/awn.png'              //source: https://arcticwolf.com/
+import manulife from './assets/manulife.png'    //source: https://download.logo.wine/logo/Manulife/Manulife-Logo.wine.png
+import novx from './assets/novx.png'            //source: https://www.novxsystems.com/img/novx_logo.png
+import coreavi from './assets/coreavi.png'      //source: https://coreavi.com/wp-content/uploads/thegem-logos/logo_0ba485f7cae143708e221129728d4f25_2x.png
 import Badge from 'react-bootstrap/Badge'
 
 export const Work = () => (     

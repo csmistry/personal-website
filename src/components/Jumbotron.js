@@ -1,16 +1,20 @@
 import React from 'react';
 import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
 import './Jumbotron.css';
+import Badge from 'react-bootstrap/Badge'
+
 
 export const Jumbotron = () => (
+    
+    //Background Image: https://wallpaperaccess.com/abstract-lines
     <Jumbo fluid className="jumbo">
         <div className="overlay"></div>
         <Container>
-            <h2>Computer Engineering Student @ University of Waterloo</h2>
+            <h2><Badge className="jumbo-text">Computer Engineering Student @ University of Waterloo</Badge></h2>
             <br/>
-            <h2>Software Developer @ Arctic Wolf Networks </h2>
+            <h2><Badge className="jumbo-text">Software Developer @ Arctic Wolf Networks</Badge></h2>
             <br/>
-            <h2>Lifelong Learner</h2>
+        
         </Container>
     </Jumbo>
 
