@@ -1,0 +1,41 @@
+.awn-logo {
+    width: 90%;
+    align-self: center;
+    padding: 10px;
+}
+
+.manulife-logo {
+    width: 80%;
+    align-self: center;
+}
+.novx-logo {
+    width: 80%;
+    align-self: center;
+    padding: 40px;
+}
+.coreavi-logo {
+    width: 75%;
+    align-self: center;
+    padding: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 35%;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    padding: 2px 16px;
+
+  }
+
+  .date-badge {
+    background-color: #293241;
+    color: white;
+
+  }
