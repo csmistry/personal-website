@@ -28,6 +28,7 @@
 .horizontal-flexbox{
     display: flex;
     flex-direction: row;
+    padding-bottom: 2.5%;
 }
 
 p {
