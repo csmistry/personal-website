@@ -39,3 +39,24 @@
     color: white;
 
   }
+
+  .work-horizontal-flexbox {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .work-overview {
+  
+  }
+
+  .work-details {
+    padding-left: 5%;
+  }
+
+  .work-subsection-heading {
+ 
+  }
+
+  .tech-badge {
+    background-color: #52b788;
+  }

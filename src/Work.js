@@ -21,12 +21,26 @@ export const Work = () => (
                         <h5><Badge className="date-badge">Jan. 2021 - Apr. 2021</Badge></h5>      
                     </div>
                 </div>
-                <div className="work-overview">
-
+                <div className="work-details">
+                    <div className="work-overview">
+                        <h5 className="work-subsection-heading"><b>Overview:</b></h5>
+                        <ul>
+                            <li>First point</li>
+                            <li>Second point</li>
+                            <li>Third point</li>
+                            <li>First point</li>
+                            <li>Second point</li>
+                            <li>Third point</li>
+                        </ul>
+                    </div>
+                    <div className="tech-stack">
+                         <h5 className="work-subsection-heading"><b>Tech Stack:</b></h5>
+                         <Badge className="tech-badge">Golang</Badge>{' '}
+                         <Badge className="tech-badge">AWS</Badge>{' '}
+                         <Badge className="tech-badge">PostgresSQL</Badge>{' '}
+                         <Badge className="tech-badge">Shell</Badge>{' '}
+                    </div>
                 </div>
-            </div>
-            <div className="tech-stack">
-
             </div>
         </div>
 
