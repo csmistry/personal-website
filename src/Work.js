@@ -7,13 +7,25 @@ import novx from './assets/novx.png'            //source: https://www.novxsystem
 import coreavi from './assets/coreavi.png'      //source: https://coreavi.com/wp-content/uploads/thegem-logos/logo_0ba485f7cae143708e221129728d4f25_2x.png
 import Badge from 'react-bootstrap/Badge'
 
-export const Work = () => (     
+export const Work = () => {
+
+    const showDiv = () => {
+        var x = document.getElementById("work-elem1");
+        if (x.style.opacity == 0) {
+            x.style.opacity = 1
+            
+        } else {
+            x.style.opacity = 0
+        }
+    }
+    
+    return (     
     <div id="work" className="layout-element">
         <h1 className="section-heading">Work Experience</h1>
         
         <div className="work-element">
             <div className="work-horizontal-flexbox">
-                <div className="card">
+                <div className="card" onClick={showDiv}>
                     <img src={awn} className="awn-logo"/>
                     <div className="container">
                         <h4><b>Software Developer</b></h4>
@@ -21,7 +33,7 @@ export const Work = () => (
                         <h5><Badge className="date-badge">Jan. 2021 - Apr. 2021</Badge></h5>      
                     </div>
                 </div>
-                <div className="work-details">
+                <div id="work-elem1" className="work-details">
                     <div className="work-overview">
                         <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                         <ul>
@@ -150,4 +162,4 @@ export const Work = () => (
         </div>
 
     </div>
-)
+)}
