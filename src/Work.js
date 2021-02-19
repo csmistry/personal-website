@@ -9,13 +9,16 @@ import Badge from 'react-bootstrap/Badge'
 
 export const Work = () => {
 
-    const showDiv = () => {
-        var x = document.getElementById("work-elem1");
+    //this.showDiv = this.showDiv.bind(this);
+
+    const showDiv = (e) => {
+        var childDivID = "" + e.id + e.id;
+        var x = document.getElementById(childDivID);
         if (x.style.opacity == 0) {
-            x.style.opacity = 1
+            x.style.opacity = 1;
             
         } else {
-            x.style.opacity = 0
+            x.style.opacity = 0;
         }
     }
     
@@ -25,7 +28,7 @@ export const Work = () => {
         
         <div className="work-element">
             <div className="work-horizontal-flexbox">
-                <div className="card" onClick={showDiv}>
+                <div id={1} className="card" onClick={() => this.showDiv}>
                     <img src={awn} className="awn-logo"/>
                     <div className="container">
                         <h4><b>Software Developer</b></h4>
@@ -33,7 +36,7 @@ export const Work = () => {
                         <h5><Badge className="date-badge">Jan. 2021 - Apr. 2021</Badge></h5>      
                     </div>
                 </div>
-                <div id="work-elem1" className="work-details">
+                <div id={11}  className="work-details">
                     <div className="work-overview">
                         <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                         <ul>
