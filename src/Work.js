@@ -15,6 +15,7 @@ export const Work = () => {
     <div id="work" className="layout-element">
         <h1 className="section-heading">Work Experience</h1>
      
+  
         <Accordion className="work-accordian" defaultActiveKey="0">
             <Card >
                 <Accordion.Toggle as={Card.Header} eventKey="0" className="accordian-card">
@@ -26,12 +27,12 @@ export const Work = () => {
                 <Accordion.Collapse eventKey="0">
                 <Card.Body>
                     <div className="work-horizontal-flexbox">
-                        <div className="card" >
+                        <div className="logo-card" >
                             <img src={awn} className="awn-logo"/>
                             <div className="container">
                                 <h4><b>Software Developer</b></h4>
                                 <p>Risk Platform - Backend </p>
-                                <h5><Badge className="date-badge">Jan. 2021 - Apr. 2021</Badge></h5>      
+                                <h5><Badge className="date-badge">Jan. 2021 - Apr. 2021</Badge></h5>
                             </div>
                         </div>
                         <div id={11}  className="work-details">
@@ -68,7 +69,7 @@ export const Work = () => {
                 <Accordion.Collapse eventKey="1">
                     <Card.Body>
                         <div className="work-horizontal-flexbox">
-                            <div className="card">
+                            <div className="logo-card">
                                 <img src={manulife} className="manulife-logo"/>
                                 <div className="container">
                                     <h4><b>Software Engineering Intern</b></h4> 
@@ -110,7 +111,7 @@ export const Work = () => {
                 <Accordion.Collapse eventKey="2">
                     <Card.Body>
                         <div className="work-horizontal-flexbox">
-                            <div className="card">
+                            <div className="logo-card">
                                 <img src={novx} className="novx-logo"/>
                                 <div className="container">
                                     <h4><b>Software Engineering Intern</b></h4> 
@@ -152,7 +153,7 @@ export const Work = () => {
                 <Accordion.Collapse eventKey="3">
                     <Card.Body>
                         <div className="work-horizontal-flexbox">   
-                            <div className="card">
+                            <div className="logo-card">
                                 <img src={coreavi} className="coreavi-logo"/>
                                 <div className="container">
                                     <h4><b>DevOps Engineering Intern</b></h4> 
@@ -185,6 +186,5 @@ export const Work = () => {
                 </Accordion.Collapse>
             </Card>
         </Accordion>  
-
     </div>
 )}
