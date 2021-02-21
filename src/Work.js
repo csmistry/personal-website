@@ -14,10 +14,14 @@ export const Work = () => {
     return (     
     <div id="work" className="layout-element">
         <h1 className="section-heading">Work Experience</h1>
-        <Accordion className="work-accordian">
-            <Card>
-                <Accordion.Toggle as={Card.Header} eventKey="0">
-                Arctic Wolf Networks - Software Developer
+     
+        <Accordion className="work-accordian" defaultActiveKey="0">
+            <Card >
+                <Accordion.Toggle as={Card.Header} eventKey="0" className="accordian-card">
+                        <div className="work-horizontal-flexbox">
+                            <h6><b>Arctic Wolf Networks</b></h6>
+                            <h6 className="title-heading"><Badge className="title-badge">Software Developer</Badge></h6>
+                        </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
                 <Card.Body>
@@ -55,8 +59,11 @@ export const Work = () => {
                 </Accordion.Collapse>
             </Card>
             <Card>
-                <Accordion.Toggle as={Card.Header} eventKey="1">
-                Manulife Financial - Software Engineering Intern - Backend
+                <Accordion.Toggle as={Card.Header} eventKey="1" className="accordian-card">
+                <div className="work-horizontal-flexbox">
+                            <h6><b>Manulife Financial</b></h6>
+                            <h6 className="title-heading"><Badge className="title-badge">Software Engineering Intern</Badge></h6>
+                        </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
                     <Card.Body>
@@ -94,8 +101,11 @@ export const Work = () => {
                 </Accordion.Collapse>
             </Card>
             <Card>
-                <Accordion.Toggle as={Card.Header} eventKey="2">
-                NOVX Systems - Software Engineering Intern - Mobile UI
+                <Accordion.Toggle as={Card.Header} eventKey="2" className="accordian-card">
+                <div className="work-horizontal-flexbox">
+                            <h6><b>NOVX Systems</b></h6>
+                            <h6 className="title-heading"><Badge className="title-badge">Software Engineering Intern</Badge></h6>
+                        </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
                     <Card.Body>
@@ -133,8 +143,11 @@ export const Work = () => {
                 </Accordion.Collapse>
             </Card>
             <Card>
-                <Accordion.Toggle as={Card.Header} eventKey="3">
-                COREAVI - Engineering Intern - DevOps
+                <Accordion.Toggle as={Card.Header} eventKey="3" className="accordian-card">
+                <div className="work-horizontal-flexbox">
+                            <h6><b>CoreAVI </b></h6>
+                            <h6 className="title-heading"><Badge className="title-badge">Engineering Intern</Badge></h6>
+                        </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="3">
                     <Card.Body>

@@ -61,6 +61,21 @@
   .tech-badge {
     background-color: #52b788;
   }
+  .title-badge{
+    background-color: #a8dadc;
+    color: black;
+  }
   .work-accordian{
     width: 100%;
+    background-color: brown;
   }
+
+  .accordian-card{
+    background-color: #3d5a80;
+    color: white;
+  }
+  
+  .title-heading{
+    margin-left: 2.5%;
+  }
+
