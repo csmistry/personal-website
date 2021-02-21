@@ -53,6 +53,8 @@ export const Work = () => {
                                 <Badge className="tech-badge">AWS</Badge>{' '}
                                 <Badge className="tech-badge">PostgresSQL</Badge>{' '}
                                 <Badge className="tech-badge">Shell</Badge>{' '}
+                                <Badge className="tech-badge">Git</Badge>{' '}
+                                <Badge className="tech-badge">GitHub</Badge>{' '}
                             </div>
                         </div>
                     </div>
@@ -91,10 +93,13 @@ export const Work = () => {
                                 </div>
                                 <div className="tech-stack">
                                     <h5 className="work-subsection-heading"><b>Tech Stack:</b></h5>
-                                    <Badge className="tech-badge">Golang</Badge>{' '}
-                                    <Badge className="tech-badge">AWS</Badge>{' '}
-                                    <Badge className="tech-badge">PostgresSQL</Badge>{' '}
-                                    <Badge className="tech-badge">Shell</Badge>{' '}
+                                    <Badge className="tech-badge">C#</Badge>{' '}
+                                    <Badge className="tech-badge">.NET Core</Badge>{' '}
+                                    <Badge className="tech-badge">Kafka</Badge>{' '}
+                                    <Badge className="tech-badge">Postman</Badge>{' '}
+                                    <Badge className="tech-badge">Git</Badge>{' '}
+                                    <Badge className="tech-badge">GitLab</Badge>{' '}
+                                    <Badge className="tech-badge">PCF</Badge>{' '}
                                 </div>
                             </div>
                         </div>
@@ -133,10 +138,10 @@ export const Work = () => {
                                 </div>
                                 <div className="tech-stack">
                                     <h5 className="work-subsection-heading"><b>Tech Stack:</b></h5>
-                                    <Badge className="tech-badge">Golang</Badge>{' '}
-                                    <Badge className="tech-badge">AWS</Badge>{' '}
-                                    <Badge className="tech-badge">PostgresSQL</Badge>{' '}
-                                    <Badge className="tech-badge">Shell</Badge>{' '}
+                                    <Badge className="tech-badge">C#</Badge>{' '}
+                                    <Badge className="tech-badge">Xamarin Forms</Badge>{' '}
+                                    <Badge className="tech-badge">Microsoft SQL Server</Badge>{' '}
+                                    <Badge className="tech-badge">Git</Badge>{' '}
                                 </div>
                             </div>
                         </div> 
@@ -175,10 +180,10 @@ export const Work = () => {
                                 </div>
                                 <div className="tech-stack">
                                     <h5 className="work-subsection-heading"><b>Tech Stack:</b></h5>
-                                    <Badge className="tech-badge">Golang</Badge>{' '}
-                                    <Badge className="tech-badge">AWS</Badge>{' '}
-                                    <Badge className="tech-badge">PostgresSQL</Badge>{' '}
-                                    <Badge className="tech-badge">Shell</Badge>{' '}
+                                    <Badge className="tech-badge">Python</Badge>{' '}
+                                    <Badge className="tech-badge">PHP</Badge>{' '}
+                                    <Badge className="tech-badge">HTML/CSS</Badge>{' '}
+                                    <Badge className="tech-badge">Batch</Badge>{' '}
                                 </div>
                             </div>
                         </div>
