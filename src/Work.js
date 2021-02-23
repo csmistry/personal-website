@@ -125,12 +125,10 @@ export const Work = () => {
                                 <div className="work-overview">
                                     <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                                     <ul>
-                                        <li>First point</li>
-                                        <li>Second point</li>
-                                        <li>Third point</li>
-                                        <li>First point</li>
-                                        <li>Second point</li>
-                                        <li>Third point</li>
+                                        <li><p>Developed the UI of a mobile application using Xamarin Forms, C#, SQL and Postman to digitize existing procedures for substance impairment testing in the workplace</p></li>
+                                        <li><p>Utilized an MVVM software architecture with design patterns such as Dependency Injection to incorporate dynamic page rendering for common UI elements, which increased code-reusability by 40%</p></li>
+                                        <li><p>Streamlined communication using Agile practices and progress meetings with the client to discuss potential setbacks and next steps, resulting in improved project goals and vision</p></li>
+                    
                                     </ul>
                                 </div>
                                 <div className="tech-stack">
@@ -167,12 +165,10 @@ export const Work = () => {
                                 <div className="work-overview">
                                     <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                                     <ul>
-                                        <li>First point</li>
-                                        <li>Second point</li>
-                                        <li>Third point</li>
-                                        <li>First point</li>
-                                        <li>Second point</li>
-                                        <li>Third point</li>
+                                        <li><p>Automated account creation for new customers by developing a full-stack web application using pure HTML and CSS for the front-end while using Python and PHP to manage back-end processes</p></li>
+                                        <li><p>Improved developer on-boarding experience by scripting a Batch program that automates the installation of common tools and software, reducing setup time by 30%</p></li>
+                                        <li><p>Increased internal knowledge base content by 50% through the redesign and addition of detailed tutorials and documentation on the setup and use of software tools/frameworks used within the company</p></li>
+                                       
                                     </ul>
                                 </div>
                                 <div className="tech-stack">
