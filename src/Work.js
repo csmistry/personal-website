@@ -83,12 +83,9 @@ export const Work = () => {
                                 <div className="work-overview">
                                     <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                                     <ul>
-                                        <li>First point</li>
-                                        <li>Second point</li>
-                                        <li>Third point</li>
-                                        <li>First point</li>
-                                        <li>Second point</li>
-                                        <li>Third point</li>
+                                        <li><p>Implemented a Kafka consumer for a high volume real-time data feed, using .NET Core, C# and Confluent.Kafka API to eliminate the existing dependency of a third party API, resulting in low-latency data consumption</p></li>
+                                        <li><p>Designed and integrated Kafka consumer and producer solutions to 13+ projects ranging from cloud applications to batch programs, resulting in our team’s solution becoming the new standard template for all Kafka projects</p></li>
+                                        <li><p>Taught full-time employees about Kafka and developing in a linux environment using WSL, through one-on-one meetings and group walk-throughs, resulting in accelerated usage and understanding of the Kafka platform</p></li>
                                     </ul>
                                 </div>
                                 <div className="tech-stack">
