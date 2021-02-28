@@ -83,3 +83,18 @@
   width: 60%;
   height: 60%;
 }
+
+.hackathon-badge{
+  background-color: #293241;
+  color: white;
+}
+
+.project-badge{
+  background-color: #28a745;
+  color: white;
+}
+
+.course-badge{
+  background-color: #17a2b8;
+  color: white;
+}
