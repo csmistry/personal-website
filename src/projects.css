@@ -61,4 +61,25 @@
 .project-images {
   width: 75%;
   height: 75%;
+  padding: 5%;
+}
+
+.city-tracker-image{
+  margin-top: 20px;
+  width: 90%;
+  height: 60%;
+  padding: 5%;
+}
+
+.kafka-image{
+  width: 100%;
+  height: 50%;
+  padding: 10%;
+  margin-top: 20px;
+}
+
+.web-crawler-image {
+  padding: 5%;
+  width: 60%;
+  height: 60%;
 }
