@@ -25,16 +25,19 @@ export const Projects = () => (
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p> 
-                            Competed as a team of 4 in Canada's Biggest Hackathon to develop a smarter and easier way for students to track their academic progress                
+                        <p>
+                            Competed as a team of 4 in Canada's Biggest Hackathon to develop a smarter and easier way for students to track their academic progress 
                         </p>
-                        <h7 className="project-text-align"><b>Tech Stack</b></h7>
+                        
+                        <h7><b>Tech Stack</b></h7>
                         <div className="projects-horizontal-flexbox">
                             <h6><Badge className="tech-badge">Flutter</Badge></h6>{' '}
                             <h6><Badge className="tech-badge">Dart</Badge></h6>{' '}
                             <h6><Badge className="tech-badge">SQLite</Badge></h6>{' '}
                         </div>
-                        <Button className="project-button">View Project</Button>{' '}
+                        <div className="btnDiv">
+                            <Button variant="outline-info" className="project-button" target="_blank" href="https://devpost.com/software/tracademic">View Project</Button>{' '}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -37,6 +37,7 @@
     background-color: white;
     padding: 10%;
     transform: rotateY(180deg);
+    text-align: left;
   }
 
   .projects-horizontal-flexbox {
@@ -106,6 +107,6 @@
   padding-right: 30px;
 }
 
-.project-text-align{
-  text-align: start;
+.btnDiv{
+  text-align: center;
 }
