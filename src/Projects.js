@@ -1,7 +1,8 @@
 import React from 'react'
 import './components/Layout.css'
 import './projects.css'
-import Badge from 'react-bootstrap/Badge'   
+import Badge from 'react-bootstrap/Badge' 
+import Button from 'react-bootstrap/Button'  
 import htn from './assets/htn.png';
 import newhacks from './assets/newhacks.png';
 import jumbopic from './assets/jumbo-home.png'
@@ -24,9 +25,16 @@ export const Projects = () => (
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <p>We love that guy</p>
+                        <p> 
+                            Competed as a team of 4 in Canada's Biggest Hackathon to develop a smarter and easier way for students to track their academic progress                
+                        </p>
+                        <h7 className="project-text-align"><b>Tech Stack</b></h7>
+                        <div className="projects-horizontal-flexbox">
+                            <h6><Badge className="tech-badge">Flutter</Badge></h6>{' '}
+                            <h6><Badge className="tech-badge">Dart</Badge></h6>{' '}
+                            <h6><Badge className="tech-badge">SQLite</Badge></h6>{' '}
+                        </div>
+                        <Button className="project-button">View Project</Button>{' '}
                     </div>
                 </div>
             </div>
@@ -37,7 +45,7 @@ export const Projects = () => (
                         <img src={jumbopic} className="project-images"/>
                         <div >
                             <h4><b>Personal Website</b></h4>
-                            <h5><Badge className="project-badge">Project</Badge></h5>
+                            <h5><Badge className="project-badge">Side Project</Badge></h5>
                         </div>
                     </div>
                     <div className="flip-card-back">
@@ -92,7 +100,7 @@ export const Projects = () => (
                         <img src={kafka} className="kafka-image"/>
                         <div>
                             <h4><b>A Quick Introduction to Kafka</b></h4>
-                            <h5><Badge className="project-badge">Published Article</Badge></h5>
+                            <h5><Badge className="project-badge">Side Project</Badge></h5>
                         </div>
                     </div>
                     <div className="flip-card-back">

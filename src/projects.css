@@ -34,14 +34,9 @@
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: white;
+    padding: 10%;
     transform: rotateY(180deg);
-  }
-
-  .icontest{
-      width: 100px;
-      height: 100px;
   }
 
   .projects-horizontal-flexbox {
@@ -97,4 +92,20 @@
 .course-badge{
   background-color: #17a2b8;
   color: white;
+}
+.tech-badge {
+  background-color: #52b788;
+  color: black;
+  margin-right: 4px;
+}
+
+.project-button {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.project-text-align{
+  text-align: start;
 }
