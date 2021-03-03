@@ -107,9 +107,14 @@ export const Projects = () => (
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <p>We love that guy</p>
+                        <p>City Tracker implements a quad-tree data strucutre to store city info and a purely recursive approach for city-attribute based queries</p>
+                        <h7><b>Tech Stack</b></h7>
+                        <div className="projects-horizontal-flexbox">
+                            <h6><Badge className="tech-badge">C++</Badge></h6>{' '}                                              
+                        </div>
+                        <div className="btnDiv">
+                            <Button variant="outline-info" className="project-button" target="_blank" href="https://github.com/csmistry/CityTracker">View GitHub</Button>{' '}
+                        </div> 
                     </div>
                 </div>
             </div>
