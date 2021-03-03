@@ -129,9 +129,10 @@ export const Projects = () => (
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <p>We love that guy</p>
+                        <p>This is an article I decided to write after learning and working with Kafka at Manulife. This was a great way to renforce my understanding of the topic and also share the benefits of a great tool!</p>
+                        <div className="btnDiv">
+                            <Button variant="outline-info" className="project-button" target="_blank" href="https://medium.com/@chintan.mistry76/a-quick-introduction-to-kafka-101eedf28485">View Article</Button>{' '}
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -146,9 +147,20 @@ export const Projects = () => (
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <p>We love that guy</p>
+                        <p>A smarter way for retail employees to get notified about product shortages using a mobile application that pairs to ultrasonic sensors </p>
+                        <h7><b>Tech Stack</b></h7>
+                        <div className="projects-horizontal-flexbox">
+                            <h6><Badge className="tech-badge">C++</Badge></h6>{' '}  
+                            <h6><Badge className="tech-badge">Java</Badge></h6>{' '}                                              
+                            <h6><Badge className="tech-badge">JavaScript</Badge></h6>{' '} 
+                        </div>
+                        <div className="projects-horizontal-flexbox">
+                            <h6><Badge className="tech-badge">Particle Photon Hardware Kit</Badge></h6>{' '}  
+                         
+                        </div>
+                        <div className="btnDiv">
+                            <Button variant="outline-info" className="project-button" target="_blank" href="https://github.com/csmistry/CityTracker">View Project</Button>{' '}
+                        </div>                     
                     </div>
                 </div>
             </div>
