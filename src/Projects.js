@@ -80,9 +80,15 @@ export const Projects = () => (
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <p>We love that guy</p>
+                        <p>This entirely C based web crawler utilizes multi-threading and dives deep into fundamentals of parallelism and concurrency</p>
+                        <h7><b>Tech Stack</b></h7>
+                        <div className="projects-horizontal-flexbox">
+                            <h6><Badge className="tech-badge">C</Badge></h6>{' '}
+                            <h6><Badge className="tech-badge">cURL</Badge></h6>{' '}                       
+                        </div>
+                        <div className="btnDiv">
+                            <Button variant="outline-info" className="project-button" target="_blank" href="https://github.com/csmistry/systems-programming-and-concurrency/tree/main/Lab4">View GitHub</Button>{' '}
+                        </div>                    
                     </div>
                 </div>
             </div>
