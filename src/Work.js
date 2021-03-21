@@ -27,7 +27,7 @@ export const Work = () => {
                 <Accordion.Collapse eventKey="0">
                 <Card.Body>
                     <div className="work-horizontal-flexbox">
-                        <div className="logo-card" >
+                        <div className="logo-card-awn" >
                             <img src={awn} className="awn-logo"/>
                             <div className="container">
                                 <h4><b>Software Developer</b></h4>
@@ -39,12 +39,7 @@ export const Work = () => {
                             <div className="work-overview">
                                 <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                                 <ul>
-                                    <li>First point</li>
-                                    <li>Second point</li>
-                                    <li>Third point</li>
-                                    <li>First point</li>
-                                    <li>Second point</li>
-                                    <li>Third point</li>
+                                  <h3><li>Coming soon ...</li></h3>
                                 </ul>
                             </div>
                             <div className="tech-stack">

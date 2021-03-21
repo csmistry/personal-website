@@ -14,7 +14,7 @@ export const Jumbotron = () => (
             <br/>
             <h2><Badge className="jumbo-text">Software Developer @ Arctic Wolf Networks</Badge></h2>
             <br/>
-        
+            <h5><Badge className="jumbo-text">This site currently only supports browser viewing. Mobile coming soon!</Badge></h5>
         </Container>
     </Jumbo>
 
