@@ -1,0 +1,16 @@
+.list{ 
+    color: black; 
+    background: white; 
+} 
+
+
+li{ 
+    list-style: none; 
+} 
+
+
+li::before{ 
+    content: "\276F"; 
+    color: #ee6c4d;
+    padding-right: 1%;
+}   
