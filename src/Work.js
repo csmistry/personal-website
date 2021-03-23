@@ -80,9 +80,11 @@ export const Work = () => {
                                     <ul>
                                         <li><p>Implemented a Kafka consumer for a high volume real-time data feed, using .NET Core, C# and Confluent.Kafka API to eliminate the existing dependency of a third party API, resulting in low-latency data consumption</p></li>
                                         <li><p>Designed and integrated Kafka consumer and producer solutions to 13+ projects ranging from cloud applications to batch programs, resulting in our team’s solution becoming the new standard template for all Kafka projects</p></li>
-                                        <li><p>Taught full-time employees about Kafka and developing in a linux environment using WSL, through one-on-one meetings and group walk-throughs, resulting in accelerated usage and understanding of the Kafka platform</p></li>
+                                        <li><p>Co-ordinated and led one-on-one meetings and group walk-throughs with full-time employees about Kafka and developing in a linux environment, which accelerated both knowledge and usage of Kafka within the Company</p></li>
+                                        <li><p>Competed in the first ever Manulife Co-op Tech challenge as a team of 5. Presented to a panel of executives, a platform that streamlined communication between returning co-ops and hiring managers</p></li>
                                     </ul>
                                 </div>
+                        
                                 <div className="tech-stack">
                                     <h5 className="work-subsection-heading"><b>Tech Stack:</b></h5>
                                     <Badge className="tech-badge">C#</Badge>{' '}
@@ -120,10 +122,10 @@ export const Work = () => {
                                 <div className="work-overview">
                                     <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                                     <ul>
-                                        <li><p>Developed the UI of a mobile application using Xamarin Forms, C#, SQL and Postman to digitize existing procedures for substance impairment testing in the workplace</p></li>
-                                        <li><p>Utilized an MVVM software architecture with design patterns such as Dependency Injection to incorporate dynamic page rendering for common UI elements, which increased code-reusability by 40%</p></li>
-                                        <li><p>Streamlined communication using Agile practices and progress meetings with the client to discuss potential setbacks and next steps, resulting in improved project goals and vision</p></li>
-                    
+                                        <li><p>Developed the UI of a mobile application that is designed to digitize existing procedures for substance impairment testing in the workplace</p></li>
+                                        <li><p>Increased code re-usuability up to 40% by utilizing an MVVM software architecture with design patterns such as Dependency Injection and common code UI components</p></li>
+                                        <li><p>Streamlined communication using Agile practices and progress meetings with the client to discuss potential setbacks and next steps, which resulted in improved project goals and vision</p></li>
+                                        <li><p>Performed bi-weekly demos with the team and client to showcase UI progress and discuss future implementations</p></li>
                                     </ul>
                                 </div>
                                 <div className="tech-stack">
@@ -132,6 +134,9 @@ export const Work = () => {
                                     <Badge className="tech-badge">Xamarin Forms</Badge>{' '}
                                     <Badge className="tech-badge">Microsoft SQL Server</Badge>{' '}
                                     <Badge className="tech-badge">Git</Badge>{' '}
+                                    <Badge className="tech-badge">SQL</Badge>{' '}
+                                    <Badge className="tech-badge">Postman</Badge>{' '}
+
                                 </div>
                             </div>
                         </div> 
@@ -163,7 +168,7 @@ export const Work = () => {
                                         <li><p>Automated account creation for new customers by developing a full-stack web application using pure HTML and CSS for the front-end while using Python and PHP to manage back-end processes</p></li>
                                         <li><p>Improved developer on-boarding experience by scripting a Batch program that automates the installation of common tools and software, reducing setup time by 30%</p></li>
                                         <li><p>Increased internal knowledge base content by 50% through the redesign and addition of detailed tutorials and documentation on the setup and use of software tools/frameworks used within the company</p></li>
-                                       
+                                        <li><p>Troubleshooted network and computer issues for both in-office and remote employees</p></li>
                                     </ul>
                                 </div>
                                 <div className="tech-stack">
