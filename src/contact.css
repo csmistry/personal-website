@@ -1,0 +1,30 @@
+.contact-horizontal-flexbox{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+.githubLogo{
+    width: 85%;
+    height: 85%;
+    vertical-align: middle;
+}
+
+.linkedinLogo{
+    width: 45%;
+    height: 75%;
+    margin-left: 33%;
+    vertical-align: middle;
+}
+
+.emailText{
+    border-style: solid;
+    border-color: #ee6c4d;
+    margin-right: 0;
+    margin-left: -4%;
+    padding: 2%;
+    vertical-align: middle;
+}
