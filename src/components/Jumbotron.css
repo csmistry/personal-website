@@ -8,10 +8,10 @@
    background-image: url("../assets/jumbo-home.png");
    background-position: center;
    background-size: cover;
-   opacity: 100%;
+   opacity: 70%;
    z-index: -1 ;
 }
 
 .jumbo-text{
-   background-color: rgba(	29, 53, 87, .3);
+   background-color: rgba(1, 9, 20, 0.8);
 }
