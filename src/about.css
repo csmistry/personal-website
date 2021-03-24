@@ -17,3 +17,26 @@
     color: #ee6c4d;
     padding-right: 1%;
 }   
+
+
+.about-horizontal-flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .wloo-img{
+      width: 10%;
+      height: 20%;
+      position: absolute;
+      right: 15%;
+      margin-top: 10%;
+  }
+
+  .myPic-img{
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    right: 15%;
+}
