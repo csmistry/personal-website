@@ -6,11 +6,12 @@
    text-align: center;
    color: white;
    background-position: center;
-   background-size: 100%;
+   background-size: 90vw;
    opacity: 85%;
    z-index: -1 ;
 }
 
 .jumbo-text{
    background-color: rgba(1, 9, 20, 0.8);
+   font-size: 1.7vw;
 }
