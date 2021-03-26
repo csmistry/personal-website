@@ -17,8 +17,8 @@ export const Projects = () => (
 
             <div className="flip-card">
                 <div className="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={htn} className="project-images"/>
+                    <div className="flip-card-front">
+                        <img src={htn} className="project-images" alt="hack the north"/>
                         <div >
                             <h4><b>Tracademic</b></h4>
                             <h5><Badge className="hackathon-badge">Hackathon</Badge></h5>
@@ -44,8 +44,8 @@ export const Projects = () => (
 
             <div className="flip-card">
                 <div className="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={jumbopic} className="project-images"/>
+                    <div className="flip-card-front">
+                        <img src={jumbopic} className="project-images" alt=""/>
                         <div >
                             <h4><b>Personal Website</b></h4>
                             <h5><Badge className="project-badge">Side Project</Badge></h5>
@@ -72,8 +72,8 @@ export const Projects = () => (
  
             <div className="flip-card">
                 <div className="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={webcrawler} className="web-crawler-image"/>
+                    <div className="flip-card-front">
+                        <img src={webcrawler} className="web-crawler-image" alt=""/>
                         <div>
                             <h4><b>Multi-Threaded Web Crawler</b></h4>
                             <h5><Badge className="course-badge">Course Project</Badge></h5>
@@ -99,8 +99,8 @@ export const Projects = () => (
 
         <div className="flip-card">
                 <div className="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={citytracker} className="city-tracker-image"/>
+                    <div className="flip-card-front">
+                        <img src={citytracker} className="city-tracker-image" alt=""/>
                         <div >
                             <h4><b>City Tracker</b></h4>
                             <h5><Badge className="course-badge">Data Structures Project</Badge></h5>
@@ -121,8 +121,8 @@ export const Projects = () => (
 
             <div className="flip-card">
                 <div className="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={kafka} className="kafka-image"/>
+                    <div className="flip-card-front">
+                        <img src={kafka} className="kafka-image" alt="kafka"/>
                         <div>
                             <h4><b>A Quick Introduction to Kafka</b></h4>
                             <h5><Badge className="project-badge">Side Project</Badge></h5>
@@ -139,8 +139,8 @@ export const Projects = () => (
        
             <div className="flip-card">
                 <div className="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={newhacks} className="project-images"/>
+                    <div className="flip-card-front">
+                        <img src={newhacks} className="project-images" alt="New Hacks"/>
                         <div >
                             <h4><b>StockIt</b></h4>
                             <h5><Badge className="hackathon-badge">Hackathon</Badge></h5>

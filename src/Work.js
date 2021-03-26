@@ -28,7 +28,7 @@ export const Work = () => {
                 <Card.Body>
                     <div className="work-horizontal-flexbox">
                         <div className="logo-card-awn" >
-                            <img src={awn} className="awn-logo"/>
+                            <img src={awn} className="awn-logo" alt="Arctic Wolf"/>
                             <div className="container">
                                 <h4><b>Software Developer</b></h4>
                                 <p>Risk Platform - Backend </p>
@@ -67,7 +67,7 @@ export const Work = () => {
                     <Card.Body>
                         <div className="work-horizontal-flexbox">
                             <div className="logo-card">
-                                <img src={manulife} className="manulife-logo"/>
+                                <img src={manulife} className="manulife-logo" alt="manulife"/>
                                 <div className="container">
                                     <h4><b>Software Engineering Intern</b></h4> 
                                     <p>Group Benefit Claims Division - Backend</p>
@@ -111,7 +111,7 @@ export const Work = () => {
                     <Card.Body>
                         <div className="work-horizontal-flexbox">
                             <div className="logo-card">
-                                <img src={novx} className="novx-logo"/>
+                                <img src={novx} className="novx-logo" alt="novx systems"/>
                                 <div className="container">
                                     <h4><b>Software Engineering Intern</b></h4> 
                                     <p>Mobile - UI</p> 
@@ -154,7 +154,7 @@ export const Work = () => {
                     <Card.Body>
                         <div className="work-horizontal-flexbox">   
                             <div className="logo-card">
-                                <img src={coreavi} className="coreavi-logo"/>
+                                <img src={coreavi} className="coreavi-logo" alt="coreavi"/>
                                 <div className="container">
                                     <h4><b>DevOps Engineering Intern</b></h4> 
                                     <p>System Admin - Automation</p> 

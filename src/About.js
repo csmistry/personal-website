@@ -3,7 +3,6 @@ import './components/Layout.css'
 import wloo from './assets/wlooEng.png'
 import './about.css'
 import myPic from './assets/myFace.jpg'
-import skating from './assets/meSkating.jpg'
 import Backend from './assets/backend.jpeg'
 
 

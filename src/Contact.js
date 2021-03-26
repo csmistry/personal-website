@@ -1,15 +1,14 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 import './components/Layout.css'
 import './contact.css';
 import github from './assets/github_logo.png';
 import linkedin from './assets/linkedin_logo.png';
-import email from './assets/email_icon.svg';
+
 
 
 export const Contact = () => {     
   
-  const copyToClipboard = () => { 
+  /*const copyToClipboard = () => { 
     var dummy = document.createElement("textarea");
     document.body.appendChild(dummy);
     dummy.value = "chintan.mistry76@gmail.com";
@@ -17,16 +16,16 @@ export const Contact = () => {
     document.execCommand("copy");
     document.body.removeChild(dummy);
 
-  }
+  }*/
 
    return (
     <div id="contact" className="layout-element">
         <h1 className="section-heading">Contact Me</h1>
         <div className="contact-horizontal-flexbox">
-            <a target="_blank" href="https://github.com/csmistry">
+            <a target="_blank" href="https://github.com/csmistry" rel="noreferrer noopener">
                 <img  src={github} alt='github' className="githubLogo"/>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/chintanmistry17">
+            <a target="_blank" href="https://www.linkedin.com/in/chintanmistry17" rel="noreferrer noopener">
                 <img src={linkedin} alt='linkedin' className="linkedinLogo"/>
             </a>
             <div>
