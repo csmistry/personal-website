@@ -6,7 +6,7 @@
    text-align: center;
    color: white;
    background-position: center;
-   background-size: cover;
+   background-size: 100%;
    opacity: 85%;
    z-index: -1 ;
 }

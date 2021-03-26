@@ -29,7 +29,7 @@ export const Projects = () => (
                             Competed as a team of 4 in Canada's Biggest Hackathon to develop a smarter and easier way for students to track their academic progress 
                         </p>
                         
-                        <h7><b>Tech Stack</b></h7>
+                        <p><b>Tech Stack</b></p>
                         <div className="projects-horizontal-flexbox">
                             <h6><Badge className="tech-badge">Flutter</Badge></h6>{' '}
                             <h6><Badge className="tech-badge">Dart</Badge></h6>{' '}
@@ -53,7 +53,7 @@ export const Projects = () => (
                     </div>
                     <div className="flip-card-back">
                         <p>I wanted to learn React and work with JavaScript so I thought what better way then to make my own website from scratch!</p>
-                        <h7><b>Tech Stack</b></h7>
+                        <p><b>Tech Stack</b></p>
                         <div className="projects-horizontal-flexbox">
                             <h6><Badge className="tech-badge">React</Badge></h6>{' '}
                             <h6><Badge className="tech-badge">React-Bootstrap</Badge></h6>{' '}
@@ -81,7 +81,7 @@ export const Projects = () => (
                     </div>
                     <div className="flip-card-back">
                         <p>This entirely C based web crawler utilizes multi-threading and dives deep into fundamentals of parallelism and concurrency</p>
-                        <h7><b>Tech Stack</b></h7>
+                        <p><b>Tech Stack</b></p>
                         <div className="projects-horizontal-flexbox">
                             <h6><Badge className="tech-badge">C</Badge></h6>{' '}
                             <h6><Badge className="tech-badge">cURL</Badge></h6>{' '}                       
@@ -108,7 +108,7 @@ export const Projects = () => (
                     </div>
                     <div className="flip-card-back">
                         <p>City Tracker implements a quad-tree data strucutre to store city info and a purely recursive approach for city-attribute based queries</p>
-                        <h7><b>Tech Stack</b></h7>
+                        <p><b>Tech Stack</b></p>
                         <div className="projects-horizontal-flexbox">
                             <h6><Badge className="tech-badge">C++</Badge></h6>{' '}                                              
                         </div>
@@ -148,7 +148,7 @@ export const Projects = () => (
                     </div>
                     <div className="flip-card-back">
                         <p>A smarter way for retail employees to get notified about product shortages using a mobile application that pairs to ultrasonic sensors </p>
-                        <h7><b>Tech Stack</b></h7>
+                        <p><b>Tech Stack</b></p>
                         <div className="projects-horizontal-flexbox">
                             <h6><Badge className="tech-badge">C++</Badge></h6>{' '}  
                             <h6><Badge className="tech-badge">Java</Badge></h6>{' '}                                              
