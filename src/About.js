@@ -10,7 +10,7 @@ export const About = () => (
           <div id="about" className="layout-element">
             <h1 className="section-heading">About Me </h1>
             <div>
-              <h5>Hey there! My name is Chintan and welcome to my website. Keep reading to learn more about me and some of my past experiences.</h5>
+              <h5 className="aboutme-heading">Hey there! My name is Chintan and welcome to my website. Keep reading to learn more about me and some of my past experiences.</h5>
               <div className="about-horizontal-flexbox">
                 <div>
                     <ul className="list">
@@ -27,7 +27,7 @@ export const About = () => (
                   <img className="wloo-img" src={wloo} alt="Avatar"/>
                 </div>
               </div>
-              <h5>Things I enjoy outside of work and school ...</h5>
+              <h5 className="aboutme-heading">Things I enjoy outside of work and school ...</h5>
               <div className="about-horizontal-flexbox">
                 <div>
                     <ul className="list">
