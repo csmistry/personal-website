@@ -20,7 +20,7 @@ export const Work = () => {
             <Card >
                 <Accordion.Toggle as={Card.Header} eventKey="0" className="accordian-card">
                         <div className="work-horizontal-flexbox">
-                            <h6><b>Arctic Wolf Networks</b></h6>
+                            <h6 className="work-name"><b>Arctic Wolf Networks</b></h6>
                             <h6 className="title-heading"><Badge className="title-badge">Software Developer</Badge></h6>
                         </div>
                 </Accordion.Toggle>
@@ -59,7 +59,7 @@ export const Work = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="1" className="accordian-card">
                 <div className="work-horizontal-flexbox">
-                            <h6><b>Manulife Financial</b></h6>
+                            <h6 className="work-name"><b>Manulife Financial</b></h6>
                             <h6 className="title-heading"><Badge className="title-badge">Software Engineering Intern</Badge></h6>
                         </div>
                 </Accordion.Toggle>
@@ -103,7 +103,7 @@ export const Work = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="2" className="accordian-card">
                 <div className="work-horizontal-flexbox">
-                            <h6><b>NOVX Systems</b></h6>
+                            <h6 className="work-name"><b>NOVX Systems</b></h6>
                             <h6 className="title-heading"><Badge className="title-badge">Software Engineering Intern</Badge></h6>
                         </div>
                 </Accordion.Toggle>
@@ -146,7 +146,7 @@ export const Work = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="3" className="accordian-card">
                 <div className="work-horizontal-flexbox">
-                            <h6><b>CoreAVI </b></h6>
+                            <h6 className="work-name"><b>CoreAVI </b></h6>
                             <h6 className="title-heading"><Badge className="title-badge">Engineering Intern</Badge></h6>
                         </div>
                 </Accordion.Toggle>
