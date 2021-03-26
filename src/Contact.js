@@ -37,20 +37,3 @@ export const Contact = () => {
    );
 };
 
-
-/*
-  <div id="contact" className="layout-element">
-        <h1 className="section-heading">Contact Me</h1>
-        <Container>
-            <a target="_blank" href="https://github.com/csmistry">
-                <img  src={github} alt='github' className="githubLogo"/>
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/in/chintanmistry17">
-                <img src={linkedin} alt='linkedin' className="linkedinLogo"/>
-            </a>
-            <a >
-                <p>chintan.mistry76@gmail.com</p>
-            </a>
-        </Container>
-    </div>
-    */
