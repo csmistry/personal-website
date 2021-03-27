@@ -39,7 +39,7 @@ export const Work = () => {
                             <div className="work-overview">
                                 <h5 className="work-subsection-heading"><b>Overview:</b></h5>
                                 <ul>
-                                  <h3><li>Coming soon ...</li></h3>
+                                  <h4><li>Coming soon ...</li></h4>
                                 </ul>
                             </div>
                             <div className="tech-stack">
