@@ -5,7 +5,7 @@ import Badge from 'react-bootstrap/Badge'
 import Button from 'react-bootstrap/Button'  
 import htn from './assets/htn.png';
 import newhacks from './assets/newhacks.png';
-import jumbopic from './assets/jumbo-home.png'
+import jumbopic from './assets/jumbohome.png'
 import citytracker from './assets/citytracker.png'
 import kafka from './assets/kafka.png'
 import webcrawler from './assets/webcrawler.png'
