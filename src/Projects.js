@@ -18,7 +18,7 @@ export const Projects = () => (
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src={htn} className="project-images" alt="hack the north"/>
+                            <img src={htn} className="htn-img" alt="hack the north"/>
                             <div >
                                 <h4><b>Tracademic</b></h4>
                                 <h5><Badge className="hackathon-badge">Hackathon</Badge></h5>
@@ -26,7 +26,7 @@ export const Projects = () => (
                         </div>
                         <div className="flip-card-back">
                             <p>
-                                Competed as a team of 4 in Canada's Biggest Hackathon to develop a smarter and easier way for students to track their academic progress 
+                                Competed as a team of 4 in Canada's largest Hackathon to develop a smarter and easier way for students to track their academic progress 
                             </p>
                             
                             <p><b>Tech Stack</b></p>
@@ -47,7 +47,7 @@ export const Projects = () => (
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src={jumbopic} className="project-images" alt=""/>
+                            <img src={jumbopic} className="jumbo-img" alt=""/>
                             <div >
                                 <h4><b>Personal Website</b></h4>
                                 <h5><Badge className="project-badge">Side Project</Badge></h5>
@@ -146,7 +146,7 @@ export const Projects = () => (
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src={newhacks} className="project-images" alt="New Hacks"/>
+                            <img src={newhacks} className="nh-img" alt="New Hacks"/>
                             <div >
                                 <h4><b>StockIt</b></h4>
                                 <h5><Badge className="hackathon-badge">Hackathon</Badge></h5>
