@@ -1,5 +1,4 @@
 import React from 'react'
-import {JumbotronHome} from './components/JumbotronHome';
 import './components/Layout.css'
 import './components/JumbotronHome.css'
 import Badge from 'react-bootstrap/Badge'

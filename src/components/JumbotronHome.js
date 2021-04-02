@@ -6,7 +6,6 @@ import Badge from 'react-bootstrap/Badge'
 
 export const JumbotronHome = () => (
     
-    //Background Image: https://wallpaperaccess.com/abstract-lines
     <Jumbotron fluid className="jumbo">
         <Container>
             <h2><Badge className="jumbo-text">Computer Engineering Student @ University of Waterloo</Badge></h2>
